@@ -14,8 +14,7 @@ If you've found a bug, open an issue in the relevant repository and include:
 - Steps to reproduce it
 - Relevant environment details (OS, language/runtime version, etc.)
 
-If you have a feature idea, open an issue describing the problem you're trying to solve, not just the solution you have in mind.  
-I can't guarantee every suggestion will be implemented.
+If you have a feature idea, open an issue describing the problem you're trying to solve, not just the solution you have in mind. I can't guarantee every suggestion will be implemented.
 
 For security vulnerabilities, do not open a public issue. See [SECURITY.md](SECURITY.md) instead.
 

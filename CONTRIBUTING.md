@@ -1,12 +1,10 @@
 # Contributing
 
-Thanks for your interest in contributing. This is a default guide that applies to any of my repositories without their own [CONTRIBUTING.md](CONTRIBUTING.md).  
-Since these are small, personally maintained projects, the process is kept lightweight.
+Thanks for your interest in contributing. This is a default guide that applies to any of my repositories without their own [CONTRIBUTING.md](CONTRIBUTING.md). Since these are small, personally maintained projects, the process is kept lightweight.
 
 ## Before you start
 
-For anything beyond a small fix (typos, minor docs updates), please open an issue first to discuss the change.  
-This avoids wasted effort if the approach doesn't fit the project's direction or if I'm already working on something similar.
+For anything beyond a small fix (typos, minor docs updates), please open an issue first to discuss the change. This avoids wasted effort if the approach doesn't fit the project's direction or if I'm already working on something similar.
 
 ## Making a change
 

@@ -2,8 +2,7 @@
 
 ## Supported versions
 
-Unless a specific repository's own [SECURITY.md](SECURITY.md) states otherwise, only the latest release (or the `main` branch) is maintained.  
-These are small personal projects without long-term support for older versions.
+Unless a specific repository's own [SECURITY.md](SECURITY.md) states otherwise, only the latest release (or the `main` branch) is maintained. These are small personal projects without long-term support for older versions.
 
 ## Reporting a vulnerability
 
@@ -22,5 +21,4 @@ Please include:
 
 ## What to expect
 
-As a single maintainer working on these projects in my spare time, I cannot commit to a fixed response time, but I will 
-do my best to acknowledge reports promptly and address valid issues. Please allow reasonable time before any public disclosure.
+As a single maintainer working on these projects in my spare time, I cannot commit to a fixed response time, but I will do my best to acknowledge reports promptly and address valid issues. Please allow reasonable time before any public disclosure.
