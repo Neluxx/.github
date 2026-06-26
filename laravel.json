@@ -1,0 +1,19 @@
+{
+  "extends": ["github>Neluxx/.github"],
+  "packageRules": [
+    {
+      "description": "Automerge dev dependencies",
+      "matchDepTypes": ["require-dev", "devDependencies"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "dev dependencies"
+      "automerge": true
+    },
+    {
+      "description": "No automerge for runtime dependencies",
+      "matchDepTypes": ["require", "dependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "runtime dependencies"
+      "automerge": false,
+    }
+  ]
+}
