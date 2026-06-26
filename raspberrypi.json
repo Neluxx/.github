@@ -1,0 +1,9 @@
+{
+  "extends": ["github>Neluxx/.github"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": false
+    }
+  ]
+}
