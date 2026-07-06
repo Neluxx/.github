@@ -5,7 +5,7 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)"
   ],
-  "schedule": ["before 6am"],
+  "schedule": ["before 5am"],
   "assignees": ["neluxx"],
   "labels": ["dependencies"],
   "packageRules": [
