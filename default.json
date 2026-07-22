@@ -5,6 +5,7 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)"
   ],
+  "commitBody": "Co-authored-by: Neluxx <info@fabian-arndt.dev>"
   "prConcurrentLimit": 0,
   "branchConcurrentLimit": 0,
   "prHourlyLimit": 0,
