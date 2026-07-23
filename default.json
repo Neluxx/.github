@@ -5,11 +5,11 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)"
   ],
-  "commitBody": "Co-authored-by: Neluxx <info@fabian-arndt.dev>"
+  "commitBody": "Co-authored-by: Neluxx"
   "prConcurrentLimit": 0,
   "branchConcurrentLimit": 0,
   "prHourlyLimit": 0,
-  "schedule": ["before 5am"],
+  "schedule": ["at any time"],
   "assignees": ["neluxx"],
   "labels": ["dependencies"],
   "packageRules": [
