@@ -15,5 +15,6 @@
       "groupName": "runtime dependencies",
       "automerge": true
     }
-  ]
+  ],
+  "lockFileMaintenance": { "enabled": true, "automerge": true }
 }
