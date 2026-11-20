@@ -24,6 +24,17 @@
       "description": "Automerge everything else once CI is green",
       "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "automerge": true
+    },
+    {
+      "description": "Keep minimum Python and Node.js versions until changed by hand",
+      "matchDepTypes": ["requires-python", "engines"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "description": "Keep minimum PHP version until changed by hand",
+      "matchManagers": ["composer"],
+      "matchDepNames": ["php"],
+      "rangeStrategy": "replace"
     }
   ],
   "lockFileMaintenance": { "automerge": true },
