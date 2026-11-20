@@ -1,17 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
+    "config:best-practices",
+    "group:allNonMajor",
     ":semanticCommits",
-    ":semanticCommitTypeAll(chore)"
+    ":semanticCommitTypeAll(chore)",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone"
   ],
   "commitBody": "Co-authored-by: Neluxx <fabian.arndt96@proton.me>",
-  "prConcurrentLimit": 0,
-  "branchConcurrentLimit": 0,
-  "prHourlyLimit": 0,
-  "schedule": ["at any time"],
   "assignees": ["neluxx"],
   "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "minimumReleaseAge": "3 days",
+  "minimumReleaseAgeBehaviour": "timestamp-optional",
   "packageRules": [
     {
       "description": "Major updates only on the dashboard, no PR",
@@ -19,12 +21,12 @@
       "dependencyDashboardApproval": true
     },
     {
-      "description": "Minor and patch in one PR",
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies"
+      "description": "Automerge everything else once CI is green",
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
+      "automerge": true
     }
   ],
-  "lockFileMaintenance": { "enabled": true },
-  "vulnerabilityAlerts": { "labels": ["security"], "schedule": [] },
+  "lockFileMaintenance": { "automerge": true },
+  "vulnerabilityAlerts": { "addLabels": ["security"] },
   "osvVulnerabilityAlerts": true
 }
